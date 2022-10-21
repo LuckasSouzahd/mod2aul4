@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function operaArray(arr, func) {
+                return func(arr);
+            }
+            function somaArray(arr) {
+                var soma = 0;
+                for (var i = 0; i < arr.length; i++) {
+                    soma += arr[i];
+                }
+                return soma;
+            }
+            console.log(operaArray([1, 2, 3], somaArray))
+    </script>
+</body>
+</html>

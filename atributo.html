@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav></nav>
+    <h1>Hello Word</h1>
+    <script>
+        var cabecalho = document.querySelector('h1');
+            cabecalho.style.color = 'red'; //modifica a cor para vermelho
+
+        var navHeader = document.querySelector("nav");
+        navHeader.innerHTML = `
+
+         <div>
+         <p>Home</p>
+         <p>Quem somos</p>
+         <p>Contato</p>
+         </div>
+        `;
+</script>
+
+</body>
+</html>

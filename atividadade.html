@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button" value="ABRIR" onclick="Abrir()">Abrir</button>
+    <button type="button" value="FECHAR" onclick="Fechado()">Fechar</button>
+    <p class="paragrafo"></p>
+    <script>
+      
+        function Abrir(){
+         var paragrafo = document.querySelector("p");
+            paragrafo.innerHTML = `
+         <p>Estamos Abertos!</p>
+         `;
+          if (onclick = "Abrir()") {
+                var aberto = document.querySelector('p');
+                aberto.style.color = 'green';
+
+            }
+
+        }
+            function Fechado() {
+                var paragrafo = document.querySelector("p");
+                paragrafo.innerHTML = `
+         <p>Estamos Fechados!</p>
+         `;
+          if (onclick = "Abrir()") {
+                    var aberto = document.querySelector('p');
+                    aberto.style.color = 'red';
+
+                }
+            }
+    </script>
+</body>
+</html>
